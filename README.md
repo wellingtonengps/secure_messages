@@ -6,9 +6,9 @@ Aplicação feita em React Native com a finalidade de criptografar messagens por
 
 ## Screenshots
 
-![Home Page](https://user-images.githubusercontent.com/43380060/180282129-5dcb1fee-bd90-4e3d-8050-40e7907e4985.png)
-![Text to Encrypt Page](https://user-images.githubusercontent.com/43380060/180282794-069ba03a-1fae-4cdb-875c-e6024672206e.png)
-![Encrypt to Text Page](https://user-images.githubusercontent.com/43380060/180282799-3dd9bb3f-c886-47c5-b483-7f049a8eafa2.png)
+![Home Page (1)](https://user-images.githubusercontent.com/43380060/180287526-6abb175a-ec72-4a8a-82ca-dea30395b5bd.png)
+![Text to Encrypt Page (1)](https://user-images.githubusercontent.com/43380060/180287531-c466369e-25bd-480f-98ef-3a68f71e7583.png)
+![Encrypt to Text Page (1)](https://user-images.githubusercontent.com/43380060/180287534-924c8514-b7b2-400a-888f-9c647828aeb5.png)
 
 ## Instalação
 
