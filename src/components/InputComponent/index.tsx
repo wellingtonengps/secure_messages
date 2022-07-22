@@ -16,6 +16,7 @@ const InputComponent = (props: InputComponentProps) => {
         props.size === 'small' ? styles.containerSmall : styles.containerLarge
       }>
       <TextInput
+        autoCapitalize="none"
         selectTextOnFocus={false}
         value={props.value}
         onChangeText={props.onChangeText}

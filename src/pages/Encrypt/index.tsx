@@ -5,17 +5,16 @@ import {
   IconButtonComponent,
   InputComponent,
 } from '../../components';
-//import Clipboard from '@react-native-community/clipboard';
 import Icon from 'react-native-vector-icons/Ionicons';
-import crypt from '../../utils/AES';
+import {ciphertext} from '../../utils/AES';
 
 const EncryptScreen = () => {
   const [text, setText] = useState('');
-  const [key, setKey] = useState('');
+  const [secretKey, setSecretKey] = useState('');
   const [textCrypt, setTextCrypt] = useState('');
 
   function handleCrypt() {
-    setTextCrypt(crypt(text));
+    setTextCrypt(ciphertext(text, secretKey));
   }
 
   return (
@@ -29,8 +28,8 @@ const EncryptScreen = () => {
         />
         <View style={styles.wrapperMiddle}>
           <InputComponent
-            value={key}
-            onChangeText={setKey}
+            value={secretKey}
+            onChangeText={setSecretKey}
             placeholder="Type your secret key"
             size="small"
           />
